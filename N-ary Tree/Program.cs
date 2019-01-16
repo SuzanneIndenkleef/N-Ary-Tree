@@ -36,7 +36,7 @@ namespace N_ary_Tree
             {
                 Console.Write("     " + childNode.Value.ToString() + "     ");
             }
-            Console.WriteLine("");
+            Console.WriteLine(" ");
             foreach (var childNode in boom.Head.ChildNodes)
             {
                 if (childNode.ChildNodes.Count == 0)
